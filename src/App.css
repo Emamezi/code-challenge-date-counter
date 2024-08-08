@@ -1,0 +1,9 @@
+body {
+  margin: 30px auto;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
