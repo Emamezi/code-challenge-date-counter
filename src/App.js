@@ -13,7 +13,7 @@ export default App;
 
 const Counter = () => {
   const [count, setCount] = useState(0);
-  const [steps, setSteps] = useState(0);
+  const [steps, setSteps] = useState(1);
 
   const increaseCountHandler = () => {
     setCount((count) => count + steps);

@@ -1,9 +1,13 @@
-body {
-  margin: 30px auto;
-}
-
 .steps {
+  width: 600px;
+  margin: 100px auto;
+  background-color: purple;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 50px 20px;
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+  border-radius: 5px;
 }
