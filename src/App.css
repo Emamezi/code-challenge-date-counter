@@ -3,11 +3,36 @@
   margin: 100px auto;
   background-color: purple;
   display: flex;
+  flex-direction: column;
+
   justify-content: center;
   align-items: center;
   padding: 50px 20px;
   color: #fff;
   font-size: 28px;
   font-weight: bold;
+  border-radius: 10px;
+}
+
+.count-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.2rem;
+}
+.count-container button,
+.count-container input {
+  padding: 0.5rem 0.8rem;
+  border: 5px;
+  font-size: 20px;
   border-radius: 5px;
+}
+
+.btn-reset {
+  padding: 0.8rem 2.2rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
 }
